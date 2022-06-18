@@ -1,0 +1,15 @@
+#Ejercicio Retador #2 Índices y listas
+municipios=[]
+habitantes=[]
+
+for x in range(3):
+  nom_muni= str (input("Ingrese el Nombre del municipio: "))
+  municipios.append(nom_muni)
+  num_habi=int (input("Ingresa la cantidad de habaitantes en el municipio: "))
+  habitantes.append(num_habi)
+  print('\n')
+suma_de_habi=sum(habitantes)
+print("La suma total de habitantes es: ", suma_de_habi)
+print('\n')
+prom_habi=suma_de_habi/3
+print("El promedio de habitantes es: ", prom_habi)
