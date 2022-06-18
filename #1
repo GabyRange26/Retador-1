@@ -1,0 +1,21 @@
+#Ejercicio Retador #1 Funciones y operaciones básicas en Python
+poblacion_mujeres=1532128
+poblacion_hombres=1494815
+poblacion_total=poblacion_mujeres+poblacion_hombres
+porcentaje_culiacan=33.15
+porcentaje_mazatlan=16.57
+suma_porcentaje=porcentaje_culiacan+porcentaje_mazatlan
+clima_list= ["Calido", "Subhumedo", "Seco", "Semiseco"]
+tem_media=25.45
+superficie=57365
+precipitacion=790.1 
+print("La población total entre hombres y mujeres")
+print(poblacion_total, "personas")
+print('\n'"El porcentaje total de la población entre Culiacán y Mazatlán")
+print("-",suma_porcentaje,"%")
+print('\n'"La temperatura media anual es de: ")
+print(tem_media, "grados centígrados")
+print('\n'"Tipos de clima:")
+print("-",'\n- '.join(map(str, clima_list)))
+print('\n'"La superficie de Sinaloa es de: ", superficie ,"km2.")
+print('\n'"La precipitación anual promedio es de:",  precipitacion,"mm.")
