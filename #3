@@ -1,0 +1,14 @@
+#Ejercicio Retador #3 Manejo de operadores
+Peso_Cemento=40
+Peso_Yeso=30
+Num_cemento = int (input("Captura el numero de costales de cemento(kg): "))
+Num_yeso = int (input("Captura el numero de costales de yeso(kg): "))
+cemento = Num_cemento * Peso_Cemento
+yeso = Num_yeso * Peso_Yeso
+Peso_total = cemento + yeso
+if Peso_total >= 1627 and Peso_total <= 3254:
+  print("El peso total de los costales en kg es: ", Peso_total," kg")
+  print("¿Se puede realizar el envío?: Si")
+else:
+  print("El peso total de los costales en kg es: ", Peso_total," kg")
+  print("¿Se puede realizar el envío?: No")
