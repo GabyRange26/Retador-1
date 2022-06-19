@@ -1,0 +1,40 @@
+#Ejercicio Retador #4 Sentencias condicionales: if, if-else, if-elif-else
+Precio_Pepino= 334.72
+Precio_Maiz= 285.55
+Precio_Tomate= 129.00
+nom_producto1="Maiz grano" 
+nom_producto2="Pepino"
+nom_producto3="Tomate verde" 
+id = int (input("Ingrese el ID del producto: "))
+num_caja = int (input("Ingrese el numero de cajas a vender: "))
+
+if id == 1 and num_caja <= 100:
+  costo_total = (num_caja * Precio_Maiz)+1500
+  print("El producto es: ", nom_producto1)
+  print("El precio por caja es: ", Precio_Maiz)
+  print("El costo total a pagar: ", costo_total)
+if id == 1 and num_caja > 100:
+    costo_total=num_caja*Precio_Maiz
+    print("El producto es: ", nom_producto1)
+    print("El precio por caja es: ", Precio_Maiz)
+    print("El costo total a pagar: ", costo_total) 
+if id == 2 and num_caja <= 100:
+  costo_total = (num_caja * Precio_Pepino)+1500
+  print("El producto es: ", nom_producto2)
+  print("El precio por caja es: ", Precio_Pepino)
+  print("El costo total a pagar: ", costo_total)
+if id == 2 and num_caja > 100:
+    costo_total=num_caja*Precio_Pepino
+    print("El producto es: ", nom_producto2)
+    print("El precio por caja es: ", Precio_Pepino)
+    print("El costo total a pagar: ", costo_total)
+if id == 3 and num_caja <= 100:
+  costo_total = (num_caja * Precio_Tomate)+1500
+  print("El producto es: ", nom_producto3)
+  print("El precio por caja es: ", Precio_Tomate)
+  print("El costo total a pagar: ", costo_total)
+if id == 3 and num_caja > 100:
+    costo_total=num_caja*Precio_Tomate
+    print("El producto es: ", nom_producto3)
+    print("El precio por caja es: ", Precio_Tomate)
+    print("El costo total a pagar: ", costo_total)
